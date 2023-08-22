@@ -23,6 +23,7 @@
     ]
   },
   "dependencies": {
+    "daisyui": "^3.6.1",
     "pnpm": "^8.6.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",

@@ -1,6 +1,7 @@
 module.exports = {
   content: ['./src/**/*.html', './src/**/*.vue', './src/**/*.tsx'],
   darkMode: 'class',
+  plugins: [require('daisyui')],
 
   theme: {
     extend: {
@@ -13,6 +14,4 @@ module.exports = {
       },
     },
   },
-
-  plugins: [],
 }
