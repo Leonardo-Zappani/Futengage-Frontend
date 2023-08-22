@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-tailwind-template",
+  "name": "futengage-frontend",
   "version": "0.0.0",
   "scripts": {
     "prepare": "husky install",
@@ -23,8 +23,10 @@
     ]
   },
   "dependencies": {
+    "pnpm": "^8.6.12",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "stylelint": "^15.10.3"
   },
   "devDependencies": {
     "@innei-util/eslint-config-react-ts": "^0.2.1",
@@ -32,7 +34,7 @@
     "@types/node": "18.16.14",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
-    "@vitejs/plugin-react": "^2",
+    "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "10.4.7",
     "eslint": "8.20.0",
     "husky": "8.0.1",
